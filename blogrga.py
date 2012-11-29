@@ -73,7 +73,7 @@ class NewEntry(BlogHandler):
 			error = "You need a title and some content"
 			self.render("new-entry.html", title=title, content=content, error = error)
 		
-
+#Routes
 app = webapp2.WSGIApplication([	('/?', BlogHome), 
 								('/([0-9]+)', EntryPage), 
 								('/write', NewEntry)
