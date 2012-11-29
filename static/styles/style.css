@@ -1,0 +1,168 @@
+body{
+    background:#F7F7F8;
+    color:#333330;
+    font-family:'Century Gothic', Helvetica, Arial, sans-serif;
+    font-size:1em;
+    margin:0;
+    padding:0 10px;
+}
+
+a{
+    color:#333330;
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+#wrap{
+    max-width:600px;
+    height:100%;
+    margin:0 auto;
+    padding:10px;
+}
+
+header h1{
+    font-size:3.5em;
+    margin:0;
+    font-family:Gill Sans / Gill Sans MT, sans-serif;
+    letter-spacing:1px;
+    color:#222222;
+}
+
+#cog{
+    height:1em;
+    width:1em;
+    vertical-align:middle;
+}
+
+#navlinks{
+    width:100%;
+    float:right;
+    border-bottom: solid 1px #B8B7BD; 
+}
+
+#navlinks li{
+    float:right;
+    display:inline;
+    margin:2px 0 0 10px;
+    font-size:.8em;
+}
+
+#navlinks a{
+    color:#999997;
+    text-decoration:none;
+}
+
+#navlinks a:hover{
+    color:#ACACAA;
+}
+
+#social{
+    width:100%;
+    float:right;
+}
+
+#social li{
+    float:right;
+    display:inline;
+    margin:2px 0 0 10px;
+    font-size:.8em;
+}
+
+#social a{
+    color:#CCCCCA;
+    text-decoration:none;
+}
+
+#social a:hover{
+    color:#ACACAA;
+}
+
+#blogpost{
+    max-width:500px;
+    margin:0 auto;
+    padding:90px 0 40px 0;
+    line-height:1.55em;
+}
+
+#blogpost a{
+    color:#0000a8;
+}
+
+.entry{
+}
+
+.entry-title {
+    font-weight:bold;
+    font-size:1.25em;
+    margin-top:1em;
+}
+
+.entry-date {
+    color: #999;
+    margin-bottom:.5em;
+}
+
+.share_links{
+    padding-top: 15px;
+    text-align: right;
+}
+
+.error {
+    color: red;
+    text-align:right;
+}
+
+label {
+  display: block;
+}
+
+label + label {
+    margin-top: 1em;
+}
+
+input[type=text] {
+    width: 500px;
+    padding: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=submit]{
+    float:right;
+}
+
+textarea {
+  width: 500px;
+  min-height: 400px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    border-top: solid 1px #B8B7BD;
+    padding:20px 0;
+    text-align:center;
+}
+
+#sites li{
+    display:inline-block;
+    margin:4px 2%;
+}
+
+#sites a{
+    color:#595957;
+    text-decoration:none;
+    padding:1px 8px;
+}
+
+#sites a:hover{
+    border-bottom:solid 1px #D3D3CA;
+}
+
+#lhappi:hover{color:#F5CC51;}
+#ledkit:hover{color:#BD4431;}
+#lkfalc:hover{color:#F6A000;}
+#lslate:hover{color:#081444;}                                       
