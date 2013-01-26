@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
+<h2 class="center"><i class="icon-cog"></i> Blog</h2>
   {% for e in entries %}
     {{ e.render() | safe }}
-    <br><br>
   {% endfor %}
 {% endblock %}

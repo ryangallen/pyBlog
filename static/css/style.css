@@ -1,0 +1,184 @@
+html {overflow-y: scroll;}
+
+body{
+    font-family:'Century Gothic', Helvetica, Arial, sans-serif;
+    font-size:1em;
+    margin:0;
+    padding:0 10px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+p{
+    margin: 1em 0;
+}
+
+p, a{
+    line-height: 1.6em;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+#wrap{
+    max-width:900px;
+    height:100%;
+    margin:auto;
+}
+
+header{
+    position: relative;
+    padding: 1em 0;
+    border-bottom: solid 1px #B8B7BD;
+}
+
+header h1{
+    font-size:3.5em;
+    margin:.38em 0;
+    font-family:Gill Sans / Gill Sans MT, sans-serif;
+    letter-spacing:1px;
+    color:#222222;
+}
+
+#navlinks, #social{
+    width:100%;
+    float:right;
+    text-align: right;
+    position: absolute;
+}
+
+#social{
+    width: 400px;
+    bottom:1em;
+    right: 0;
+    display: none;
+    font-size: 1.8em;
+}
+
+#navlinks{
+    bottom:0;
+}
+
+#navlinks li, #social li{
+    display:inline-block;
+    margin:2px 0 1px 10px;
+}
+
+#navlinks a{
+    color:#777779;
+    text-decoration:none;
+}
+
+#navlinks a:hover{
+    color:#333330;
+}
+
+#social a{
+    color:#626265;
+    text-decoration:none;
+    text-shadow:1px 1px 5px #DDD;
+}
+
+#social a:hover{
+    color:#444440;
+    text-shadow:-1px -1px 5px #DDD;
+}
+
+#page-content{
+    padding: 1.2em;
+}
+
+.entry, .post{
+    margin:.5em 0;
+    max-width: 720px;
+    margin: auto;
+}
+
+.entry{
+    font-family: Georgia, Times, serif;
+}
+
+.entry-title {
+    font-weight:600;
+    font-size:1.5em;
+    line-height: 1.5em;
+}
+
+.entry-date {
+    color: #999;
+}
+
+.entry-content {
+    margin:1.2em 0;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.share_links{
+    padding-top: 15px;
+    text-align: right;
+}
+
+footer{
+    font-size:.9em;
+    border-top: solid 1px #B8B7BD;
+    text-align:right;
+}
+
+footer, footer a{
+    color:#CFCFCC;
+}
+
+footer a:hover{
+    color:#AFAFAC;
+}
+
+.center{
+    text-align:center;
+}
+
+/****************************************************/
+/*Forms*/
+/****************************************************/
+
+#write{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.error {
+    color: #990000;
+    float:right;
+}
+
+.error p{
+    margin:.4em .6em;
+}
+
+label {
+  display: block;
+}
+
+label + label {
+    margin-top: 1em;
+}
+
+input[type=text], input[type=password], textarea {
+    width: 600px;
+    padding: 2px;
+    font-family: Georgia, Times, serif;
+}
+
+input[type=submit]{
+    float:right;
+}
+
+textarea {
+  min-height: 400px;
+}

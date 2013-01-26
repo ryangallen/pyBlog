@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+  {% for e in entries %}
+    {{ e.render() | safe }}
+  {% endfor %}
+{% endblock %}
